@@ -32,7 +32,6 @@ public class MyConfig {
                 .indentOutput(true)
                 .serializationInclusion(JsonInclude.Include.NON_NULL)
                 .propertyNamingStrategy(PropertyNamingStrategy.UPPER_CAMEL_CASE)
-                
                 .build();
     }
 }
