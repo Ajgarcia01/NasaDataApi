@@ -24,8 +24,16 @@ public class AsteroidDTO {
     //Variable para recoger la media de diametro del asteroide
     private Double Asteroid_Average_Diameter;
 
+    public AsteroidDTO(String asteroid_Name, Double asteroid_Velocity, String asteroid_orbiting, String asteroid_Approach_Date, Double asteroid_Average_Diameter) {
+        Asteroid_Name = asteroid_Name;
+        Asteroid_Velocity = asteroid_Velocity;
+        Asteroid_orbiting = asteroid_orbiting;
+        Asteroid_Approach_Date = asteroid_Approach_Date;
+        Asteroid_Average_Diameter = asteroid_Average_Diameter;
+    }
 
-
+    public AsteroidDTO() {
+    }
 
     /*
      * Getter y Setter de cada una de las variables
